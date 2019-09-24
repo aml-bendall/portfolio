@@ -1,0 +1,125 @@
+/*
+
+RESPONSTABLE 2.0 by jordyvanraaij
+  Designed mobile first!
+
+If you like this solution, you might also want to check out the 1.0 version:
+  https://gist.github.com/jordyvanraaij/9069194
+
+*/
+
+.pageContainer {
+	text-align: center;
+	float:middle;
+	width:100%;
+	margin-bottom:2em;
+}
+
+.totalOrder {
+	 font-weight:bold;
+}
+
+.totalBox {
+	 font-weight:bold;
+}
+.responstable {
+	width: 95%;
+	overflow: hidden;
+	background: #FFF;
+	color: #024457;
+	border-radius: 10px;
+	border: 1px solid #167F92;
+	margin-bottom:1em;
+}
+td {
+	width:50%;
+}
+.form {
+	margin: 0 auto;
+	width:60%;
+	text-align:center;
+}
+
+.begin {
+	float:left;
+	margin-bottom:1em;
+}
+.end {
+	float:right;
+	margin-bottom:1em;
+}
+.container {
+	width:100%;
+}
+
+tr {
+	vertical-align:top;
+}
+.responstable tr {
+	border: 1px solid #D9E4E6;
+}
+
+.responstable tr:nth-child(odd) {
+	background-color: #E5E4E2;
+}
+
+.responstable th {
+	display: none;
+	border: 1px solid #FFF;
+	background-color: #0000A0;
+	color: #FFF;
+	padding: .5em;
+	font-size: 1.1em;
+}
+
+.responstable th:first-child {
+	display: table-cell;
+	text-align: center;
+}
+
+.responstable th:nth-child(2) {
+	display: table-cell;
+}
+
+.responstable th:nth-child(2) span {
+	display: none;
+}
+
+.responstable th:nth-child(2):after {
+	content: attr(data-th);
+}
+
+.responstable td {
+	text-align: center;
+	word-wrap: break-word;
+	font-size: 2em;
+}
+
+.responstable td:first-child {
+	display: table-cell;
+	text-align: center;
+	border-right: 1px solid #D9E4E6;
+}
+
+.responstable th, .responstable td {
+	text-align: center;
+	margin: 1em 1em;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #024457;
+	background: white;
+}
+
+h1 {
+	font-family: Verdana;
+	font-weight: normal;
+	color: #024457;
+	text-align: center;
+	margin-top:1.5cm !important;
+}
+
+h1 span {
+	color: #167F92;
+}

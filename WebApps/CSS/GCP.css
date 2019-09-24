@@ -1,0 +1,50 @@
+table  {
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-bottom:100%;
+	border-collapse: collapse;
+}
+
+h2 {
+	text-align:center;
+}
+
+tr {
+	border: 1px solid #D9E4E6;
+	padding:1em;
+	
+}
+
+.smalltext {
+	width: 50px;
+	text-align:center;
+}
+
+.bigtext {
+	width: 80px;
+}
+
+th, td {
+	text-align: center;
+	margin: .5em 1em;
+	padding-top:.5em;
+	padding-bottom: .5em;
+	padding-left:.2em;
+	padding-right:.2em;
+}
+th {
+	border: 1px solid #FFF;
+	background-color: #0000A0;
+	color: #FFF;
+	padding: 1em;
+}
+
+input {
+	vertical-align:middle;
+}
+
+td {
+	word-wrap: break-word;
+	font-size: 1.25em;
+}

@@ -1,0 +1,25 @@
+table.users {
+	text-align: center;
+}
+
+.column_inner_button {
+	text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row p {
+	text-align: center;
+}
+
+.Button {
+	text-align: center;
+}
+.input {
+	text-align: right
+}
